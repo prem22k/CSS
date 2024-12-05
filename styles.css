@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+  
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 26%, rgba(43,196,227,1) 90%);
+}
+
+nav {
+      margin-top: 15px;
+      text-align: right;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 8px 16px;
+      border-radius: 5px;
+      
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(17px);
+    --webkit-backdrop-filter: blur(17px);
+}
+a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: .94rem;
+}
+
+#profileImg {
+  width: 100px;
+}
+
+#hero {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 30px 20px;
+  border-radius: 8px;
+  padding: 25px 25px;
+  backdrop-filter: blur(17px);
+  --webkit-backdrop-filter: blur(17px);
+  color: white;
+}
+
+
+#blue {
+  color: rgb(14, 33, 151);
+}
+
+#about {
+  text-align: center;
+}
+
+hr {
+  margin: 20px 6px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
